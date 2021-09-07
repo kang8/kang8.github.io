@@ -7,8 +7,6 @@ draft: false
 
 ## TL;DR
 
-下面例子以 GitHub 仓库为例。
-
 ### SSH
 
 *~/.ssh/config*
@@ -29,9 +27,9 @@ Host github.com
 >     ProxyCommand nc -v -X connect -x [your_proxy_ip]:[your_http_proxy_port] %h %p
 > ```
 > 
-> 可见上述多了 `HostName` 和 `User` 两个指令，分别代表指定**主机名称**和**用户名**。
+> 上述多了 `HostName` 和 `User` 两个指令，分别表示**主机名称**和**用户名**。
 >
-> 但在 clone 代码时的命令为：`git clone git@github.com:[user]/[repository].git`。其中 git 为用户名，github.com 为主机名。根据 [手册描述](https://man.archlinux.org/man/ssh_config.5.en#DESCRIPTION)，SSH 遵循命令行优先，所以这里不用再添加 `HostName` 和 `User` 指令。
+> 但在 clone 代码时的命令为：`git clone git@github.com:[user]/[repository].git`。其中 git 为用户名，github.com 为主机名。根据 [手册描述](https://man.archlinux.org/man/ssh_config.5.en#DESCRIPTION)，SSH 遵循命令行优先，命令行指定了主机名和用户名，优先级最高，不会用到配置文件中的主机名和用户名。所以这里不用再重复添加 `HostName` 和 `User` 指令。
 
 
 
@@ -66,7 +64,7 @@ Git 通过 [四种协议](https://git-scm.com/book/en/v2/Git-on-the-Server-The-P
 
 #### openbsd-netcat / netcat / nc
 
-> 注：有多个软件名为 `netcat`，注意不要下错了。具体可以访问 [ArchLinux 的仓库](https://archlinux.org/packages/community/x86_64/openbsd-netcat/) 或 [debian 的仓库](https://packages.debian.org/sid/netcat-openbsd) 进行下载。
+> 注：有多个软件名为 `netcat`，注意不要弄错了。具体可以访问 [ArchLinux 的仓库](https://archlinux.org/packages/community/x86_64/openbsd-netcat/) 或 [debian 的仓库](https://packages.debian.org/sid/netcat-openbsd) 进行下载。
 
 在 ArchLinux 中，通过以下命令安装 `openbsd-netcat`：
 ```bash
@@ -83,27 +81,27 @@ $ sudo pacman -S openbsd-netcat
 
 在 SSH 中，编辑 `~/.ssh/config` 来配置代理。
 
-所有的 SSH 链接都走 HTTP 代理：
-```bash
-Host *
-    ProxyCommand nc -v -X connect -x 127.0.0.1:1081 %h %p
-```
+* 所有的 SSH 链接都走 HTTP 代理：
+    ```bash
+    Host *
+        ProxyCommand nc -v -X connect -x 127.0.0.1:1081 %h %p
+    ```
 
-> 注：这里的 %h，%p 是 ssh_config 中的 [tokens](https://man.archlinux.org/man/ssh_config.5.en#TOKENS)，是对属性的简写：
-> - `%h`：远程主机名。
-> - `%p`：远程端口。
+    > 注：这里的 %h，%p 是 ssh_config 中的 [tokens](https://man.archlinux.org/man/ssh_config.5.en#TOKENS)，是对属性的简写：
+    > - `%h`：远程主机名。
+    > - `%p`：远程端口。
 
-只连接 GitHub 时使用 HTTP 代理：
-```bash
-Host github.com
-    ProxyCommand nc -v -X connect -x 127.0.0.1:1081 %h %p
-```
+* 只连接 GitHub 时使用 HTTP 代理：
+    ```bash
+    Host github.com
+        ProxyCommand nc -v -X connect -x 127.0.0.1:1081 %h %p
+    ```
 
-连接 GitHub 时使用 SOCKS5 代理：
-```bash
-Host github.com
-    ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
-```
+* 连接 GitHub 时使用 SOCKS5 代理：
+    ```bash
+    Host github.com
+        ProxyCommand nc -v -x 127.0.0.1:1080 %h %p
+    ```
 
 
 ### HTTP/HTTPS
@@ -131,6 +129,8 @@ $ export https_proxy=http://127.0.0.1:1081
 $ export http_proxy=socks5://127.0.0.1:1081
 $ export https_proxy=socks5://127.0.0.1:1081
 ```
+
+> 注：设置 [http/https]_proxy 会让当前 Shell 的 HTTP/HTTPS 请求都转发到代理服务器上。如，使用 curl 时会从代理服务器上下载数据，而不是本机。
 
 ## Refs:
 
