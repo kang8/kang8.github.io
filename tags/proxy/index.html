@@ -73,9 +73,8 @@ Sep 2021
 </span>
 </p>
 <span class=description>
-TL;DR 下面例子以 GitHub 仓库为例。
-SSH ~/.ssh/config
-Host github.com ## HTTP ProxyCommand nc -v -X connect -x [your_proxy_ip]:[your_http_proxy_port] …
+TL;DR SSH ~/.ssh/config
+Host github.com ## HTTP ProxyCommand nc -v -X connect -x [your_proxy_ip]:[your_http_proxy_port] %h %p ## SOCKS5 …
 </span>
 </article>
 </div>
