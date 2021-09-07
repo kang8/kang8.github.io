@@ -1,6 +1,8 @@
 # Welcome to My Blog
 
-Links: https://kang8.github.io/
+Links: https://blog.yikang.pub/
+
+Themes: https://github.com/kang8/hugo-theme
 
 ## Download git submodule
 
