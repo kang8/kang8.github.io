@@ -36,6 +36,11 @@ icon = "fab fa-github"
 url = "https://github.com/kang8"
 
 [[params.social]]
+name = "Twitter"
+icon = "fab fa-twitter"
+url = "https://twitter.com/kang__98"
+
+[[params.social]]
 name = "RSS"
 icon = "fas fa-rss"
 url = "/index.xml"
