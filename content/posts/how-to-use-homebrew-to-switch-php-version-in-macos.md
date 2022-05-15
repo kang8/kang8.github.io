@@ -2,7 +2,7 @@
 title: "如何使用 Homebrew 在 macOS 中切换 PHP 版本"
 date: 2022-05-14T16:37:04+08:00
 tags: [ "php", "homebrew", "tips" ]
-draft: true
+draft: false
 ---
 
 ## TLDR
