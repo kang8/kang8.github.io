@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang's Blog</title><link>https://kang8.github.io/</link><description>Recent content on kang8.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Sep 2021 22:11:56 +0800</lastBuildDate><atom:link href="https://kang8.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何设置 Git 代理</title><link>https://kang8.github.io/posts/how-to-set-up-git-proxy/</link><pubDate>Sat, 04 Sep 2021 22:11:56 +0800</pubDate><guid>https://kang8.github.io/posts/how-to-set-up-git-proxy/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang's Blog</title><link>https://kang8.github.io/</link><description>Recent content on kang8.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 14 May 2022 16:37:04 +0800</lastBuildDate><atom:link href="https://kang8.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何使用 Homebrew 在 macOS 中切换 PHP 版本</title><link>https://kang8.github.io/posts/how-to-use-homebrew-to-switch-php-version-in-macos/</link><pubDate>Sat, 14 May 2022 16:37:04 +0800</pubDate><guid>https://kang8.github.io/posts/how-to-use-homebrew-to-switch-php-version-in-macos/</guid><description>
+TLDR 安装不同版本的 PHP
+# php version in [7.2, 7.3, 7.4, 8.0, 8.1] brew install php@7.4 # or use shivammathur/homebrew-php tap brew install …</description></item><item><title>如何设置 Git 代理</title><link>https://kang8.github.io/posts/how-to-set-up-git-proxy/</link><pubDate>Sat, 04 Sep 2021 22:11:56 +0800</pubDate><guid>https://kang8.github.io/posts/how-to-set-up-git-proxy/</guid><description>
 TL;DR SSH ~/.ssh/config
 Host github.com ## HTTP ProxyCommand nc -v -X connect -x [your_proxy_ip]:[your_http_proxy_port] %h %p ## SOCKS5 …</description></item><item><title>Hello World</title><link>https://kang8.github.io/posts/hello-world/</link><pubDate>Mon, 09 Aug 2021 22:28:23 +0800</pubDate><guid>https://kang8.github.io/posts/hello-world/</guid><description>
-Hello World</description></item></channel></rss>
+Hello World</description></item><item><title/><link>https://kang8.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kang8.github.io/about/</guid><description>
+终端爱好者，维护了属于自己的 dotfile 和 vimrc
+喜欢音乐，梦想是组一个乐队，即使现在什么乐器都不会。
+近期喜欢的乐队：
+海朋森 脏手指 之前喜欢过
+Chinese Football 李志 声音碎片 五条人 后海大鲨鱼</description></item></channel></rss>
