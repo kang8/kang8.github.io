@@ -20,9 +20,9 @@ I use [hugo](https://github.com/gohugoio/hugo) to build my blog. And I use this 
 
     ```bash
     # https
-    git clone --recurse-submodules https://github.com/kang8/kang8.github.io.git
+    git clone https://github.com/kang8/kang8.github.io.git
     # ssh
-    git clone --recurse-submodules git@github.com:kang8/kang8.github.io.git
+    git clone git@github.com:kang8/kang8.github.io.git
     ```
 
 3. build blog
