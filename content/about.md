@@ -1,4 +1,4 @@
-终端爱好者，维护了属于自己的 [dotfile](https://github.com/kang8/.dotfiles) 和 [vimrc](https://github.com/kang8/vimrc)
+终端爱好者，维护了属于自己的 [dotflie](https://github.com/kang8/.dotfiles) 和 [vimrc](https://github.com/kang8/vimrc)
 
 ---
 
