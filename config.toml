@@ -12,6 +12,7 @@ pygmentscodefencesguesssyntax = true
 [params]
     avatar = "https://cdn.jsdelivr.net/gh/yk17310320725/picBed/img/20200805204651.png"
     favicon = true
+    math = true
 
 # 导航栏
 [[menu.main]]
