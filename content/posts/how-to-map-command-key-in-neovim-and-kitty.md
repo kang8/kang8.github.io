@@ -1,6 +1,7 @@
 ---
 title: "如何在 kitty 和 neovim 中映射 command 键"
 date: 2022-09-14T08:14:53+08:00
+tags: [ "kitty", "neovim" ]
 draft: false
 ---
 
