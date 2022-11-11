@@ -1,3 +1,7 @@
+---
+date: 2022-05-15T09:11:56+08:00
+---
+
 终端爱好者，维护了属于自己的 [dotflie](https://github.com/kang8/.dotfiles) 和 [vimrc](https://github.com/kang8/vimrc)
 
 ---
