@@ -1,7 +1,7 @@
 ---
 title: "使用在线算法求解样本方差 - 算法 (第 4 版) 1.2.18 练习题详解"
 date: 2022-11-12T12:59:52+08:00
-tags: [ "algorithm", "variance" ]
+tags: [ "algorithm", "variance", "algs4" ]
 draft: false
 ---
 
