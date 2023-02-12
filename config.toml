@@ -26,9 +26,14 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
+name = "Books"
+url = "/books"
+weight = 3
+
+[[menu.main]]
 name = "About"
 url = "/about"
-weight = 3
+weight = 4
 
 # 图标
 [[params.social]]
