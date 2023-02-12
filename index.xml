@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang's Blog</title><link>https://kang8.github.io/</link><description>Recent content on kang8.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 12 Nov 2022 12:59:52 +0800</lastBuildDate><atom:link href="https://kang8.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>使用在线算法求解样本方差 - 算法 (第 4 版) 1.2.18 练习题详解</title><link>https://kang8.github.io/posts/use-online-algorithm-calculate-sample-variance-algorithms-fourth-edition-1-2-18-explanation/</link><pubDate>Sat, 12 Nov 2022 12:59:52 +0800</pubDate><guid>https://kang8.github.io/posts/use-online-algorithm-calculate-sample-variance-algorithms-fourth-edition-1-2-18-explanation/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kang's Blog</title><link>https://kang8.github.io/</link><description>Recent content on kang8.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 12 Nov 2022 12:59:52 +0800</lastBuildDate><atom:link href="https://kang8.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>My Books</title><link>https://kang8.github.io/books/</link><pubDate>Sun, 12 Feb 2023 13:24:00 +0800</pubDate><guid>https://kang8.github.io/books/</guid><description>
+点击链接跳转豆瓣页面查看详细内容
+代码整洁之道：程序员的职业素养
+人月神话
+编程珠玑（第2版）
+代码大全（第2版）
+挑战知识产权
+开源文化在中国
+开源之迷
+薛兆丰经济学讲义
+数据库系统概念（第6版）
+图解 TCP/IP（第5版）
+TCP/IP 详解·卷I：协议
+HTTP 权威指 …</description></item><item><title>使用在线算法求解样本方差 - 算法 (第 4 版) 1.2.18 练习题详解</title><link>https://kang8.github.io/posts/use-online-algorithm-calculate-sample-variance-algorithms-fourth-edition-1-2-18-explanation/</link><pubDate>Sat, 12 Nov 2022 12:59:52 +0800</pubDate><guid>https://kang8.github.io/posts/use-online-algorithm-calculate-sample-variance-algorithms-fourth-edition-1-2-18-explanation/</guid><description>
 本文是对 算法 (第 4 版) 中习题 1.2.18 分析，分析为什么题目中给出的代码可以求解方差。
 名词解释 方差(variance)：是描述一组数据的离散程度。比如比较两个班级的身高差异度，就可以使用方差。方差大的班级，高的更高，矮的更矮。计算方法为：先算出数据的平均值，在求 …</description></item><item><title>如何在 neovim 中映射 command 键 - kitty 篇</title><link>https://kang8.github.io/posts/how-to-mapping-command-key-in-neovim-kitty-version/</link><pubDate>Wed, 14 Sep 2022 08:14:53 +0800</pubDate><guid>https://kang8.github.io/posts/how-to-mapping-command-key-in-neovim-kitty-version/</guid><description>
 背景 在看最新（2022/9/12）的 This Week In Neovim 中发现了插件：Hvassaa/sterm.nvim。一个非常简单小插件，能够快速打开/关闭 terminal。 现以改用 lspsaga.nvim 中的 Float terminal。 …</description></item><item><title>我买了一辆自行车</title><link>https://kang8.github.io/posts/i-bought-a-bike/</link><pubDate>Wed, 07 Sep 2022 14:09:20 +0800</pubDate><guid>https://kang8.github.io/posts/i-bought-a-bike/</guid><description>
