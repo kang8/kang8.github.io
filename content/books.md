@@ -7,7 +7,7 @@ title: "My Books"
 
 * [代码整洁之道：程序员的职业素养](https://book.douban.com/subject/26919457)
 * [人月神话](https://book.douban.com/subject/26358448)
-* [编程珠玑（第2版）](https://book.douban.com/subject/34860300)
+* （已借出）~~[编程珠玑（第2版）](https://book.douban.com/subject/34860300)~~
 * [代码大全（第2版）](https://book.douban.com/subject/35972849)
 * [计算机程序的构造和解释（第2版）](https://book.douban.com/subject/34464721)
 * [深入理解计算机系统（第3版）](https://book.douban.com/subject/26912767)
@@ -31,7 +31,7 @@ title: "My Books"
 * [C 语言程序设计：现代方法（第2版）](https://book.douban.com/subject/35503091)
 * [C 陷阱与缺陷](https://book.douban.com/subject/2778632)
 * [C 程序设计语言（第2版）](https://book.douban.com/subject/1139336)
-* [Modern PHP](https://book.douban.com/subject/26635862)
+* （已借出）~~[Modern PHP](https://book.douban.com/subject/26635862)~~
 * [Lua 程序设计（第4版）](https://book.douban.com/subject/30262035)
 * [Java 核心技术·卷I（第10版）](https://book.douban.com/subject/26880667)
 * [Java 核心技术·卷II（第10版）](https://book.douban.com/subject/27165931)
