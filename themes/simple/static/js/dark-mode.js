@@ -11,22 +11,39 @@ if (currentTheme) {
 } else {
     currentTheme = localStorage.setItem('theme', 'light')
 }
+toggleSwitch.addEventListener('click', switchTheme, false);
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    isLight = document.documentElement.getAttribute('data-theme') === 'light'
+
+    if (event.matches === true && isLight) {
+        switchToDarkTheme()
+    } else if (event.matches === false && !isLight) {
+        switchToLightTheme()
+    }
+});
 
 function switchTheme() {
     currentTheme = localStorage.getItem('theme');
     if (currentTheme === 'light') {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-        currentTheme = localStorage.getItem('theme');
-        document.querySelector('i.dark-mode.icons.fas').classList.remove('fa-moon');
-        document.querySelector('i.dark-mode.icons.fas').classList.add('fa-sun');
+        switchToDarkTheme()
     } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-        currentTheme = localStorage.getItem('theme');
-        document.querySelector('i.dark-mode.icons.fas').classList.remove('fa-sun');
-        document.querySelector('i.dark-mode.icons.fas').classList.add('fa-moon');
+        switchToLightTheme()
     }
 }
 
-toggleSwitch.addEventListener('click', switchTheme, false);
+function switchToDarkTheme() {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+    currentTheme = localStorage.getItem('theme');
+    document.querySelector('i.dark-mode.icons.fas').classList.remove('fa-moon');
+    document.querySelector('i.dark-mode.icons.fas').classList.add('fa-sun');
+}
+
+function switchToLightTheme() {
+    document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+    currentTheme = localStorage.getItem('theme');
+    document.querySelector('i.dark-mode.icons.fas').classList.remove('fa-sun');
+    document.querySelector('i.dark-mode.icons.fas').classList.add('fa-moon');
+}
