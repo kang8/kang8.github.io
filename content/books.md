@@ -9,6 +9,8 @@ title: "My Books"
 * [人月神话](https://book.douban.com/subject/26358448)
 * [编程珠玑（第2版）](https://book.douban.com/subject/34860300)
 * [代码大全（第2版）](https://book.douban.com/subject/35972849)
+* [计算机程序的构造和解释（第2版）](https://book.douban.com/subject/34464721)
+* [深入理解计算机系统（第3版）](https://book.douban.com/subject/26912767)
 
 * [挑战知识产权](https://book.douban.com/subject/4214651)
 * [开源文化在中国](https://book.douban.com/subject/36022318)
@@ -17,11 +19,13 @@ title: "My Books"
 * [薛兆丰经济学讲义](https://book.douban.com/subject/30280804)
 
 * [数据库系统概念（第6版）](https://book.douban.com/subject/10548379)
+* [高性能 MySQL（第3版）](https://book.douban.com/subject/23008813)
 * [图解 TCP/IP（第5版）](https://book.douban.com/subject/24737674)
 * [TCP/IP 详解·卷I：协议](https://book.douban.com/subject/1088054)
 * [HTTP 权威指南](https://book.douban.com/subject/10746113)
 * [图解密码技术（第3版）](https://book.douban.com/subject/26265544)
 * [算法导论（第3版）](https://book.douban.com/subject/20432061)
+* [算法（第4版）](https://book.douban.com/subject/19952400)
 
 * [数据结构与算法分析：C 语言描述（第2版）](https://book.douban.com/subject/33419792)
 * [C 语言程序设计：现代方法（第2版）](https://book.douban.com/subject/35503091)
