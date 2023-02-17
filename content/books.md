@@ -16,7 +16,7 @@ title: "My Books"
 * [开源文化在中国](https://book.douban.com/subject/36022318)
 * [开源之迷](https://book.douban.com/subject/35716759)
 
-* [薛兆丰经济学讲义](https://book.douban.com/subject/30280804)
+* (已借出)~~[薛兆丰经济学讲义](https://book.douban.com/subject/30280804)~~
 
 * [数据库系统概念（第6版）](https://book.douban.com/subject/10548379)
 * [高性能 MySQL（第3版）](https://book.douban.com/subject/23008813)
