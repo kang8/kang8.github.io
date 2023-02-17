@@ -12,9 +12,9 @@ draft: false
 * [前后车灯](https://www.decathlon.com.cn/zh/p/920-st-led-usb-front-rear-bike-light-set/_/R-p-313171) - 199.9 RMB
 * [脚撑](https://www.decathlon.com.cn/zh/p/500-chainstay-stand/_/R-p-12228) - 59.9 RMB
 * 头盔 - 同事送的 🥳
-* 打气 - 迪卡侬可以免费打气
+* [充气宝](https://item.jd.com/100011339015.html) -  176.4 RMB
 
 
-共花费：2274.49 RMB。
+共花费：2450.89 RMB。
 
 就目前骑下来，我个人是相当满意。
